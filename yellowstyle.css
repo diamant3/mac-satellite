@@ -1,0 +1,43 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	margin: 0px;
+}
+
+.make-center {
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+
+}
+
+#div1{
+	height: 100%;
+}
+
+img{
+		height: 80%;
+		width:  80%
+}
+
+button{
+    height: 5%;
+    width: 5%;
+    font-size: 100%;
+    position: absolute;
+    padding: 6px 10px;
+    bottom: 20px;
+    left: 93%;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 1px solid black;
+    outline: none;
+    background: none;
+    transition: 0.3s ease;
+}
+button:hover {
+    background-color: black;
+    color: white;
+}
